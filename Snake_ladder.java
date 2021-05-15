@@ -30,7 +30,7 @@ if ( player_position < 0 ){
 	player_position = 0;}
 count++;
 }
-System.out.println(" Winning Position of Player : " +player_position+ " WINNNER "+"\t"+count);
+System.out.println(" Winning Position of Player : " +player_position+ " WINNNER "+"\n"+"no. of times dice rolled "+count);
 //System.out.println(" Random variables from 1 - 6 : "+random+"\t"+check);
 }
 }
