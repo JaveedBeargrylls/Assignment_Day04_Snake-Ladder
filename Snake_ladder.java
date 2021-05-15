@@ -15,8 +15,12 @@ int check = (int)(Math.random()*3);
 	// the function of ladder and snake
 int result = 0;	
 switch ( check ){
+	// Checking in the ladder to get the exact winning position
 	case ladder:
-		result += random;
+		if( (player_position + random) <= 100 ){
+			player_position += random; }
+		else
+			player_position += 0;
 		break;
 	case snake:
 		result -= random;
@@ -25,12 +29,11 @@ switch ( check ){
 		result = 0;
 
 }
-	player_position += result;
-if ( player_position < 0 ){
-	player_position = 0;}
-count++;
+	//player_position += result;
+player_position = player_position + result;
+//count++;
 }
-System.out.println(" Winning Position of Player : " +player_position+ " WINNNER "+"\n"+"no. of times dice rolled "+count);
+System.out.println("Winning Position of Player : " +player_position+ " WINNNER "+"\n");
 //System.out.println(" Random variables from 1 - 6 : "+random+"\t"+check);
 }
 }
