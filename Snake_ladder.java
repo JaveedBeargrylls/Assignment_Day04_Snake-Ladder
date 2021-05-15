@@ -31,9 +31,9 @@ switch ( check ){
 }
 	//player_position += result;
 player_position = player_position + result;
-//count++;
+count++;
 }
-System.out.println("Winning Position of Player : " +player_position+ " WINNNER "+"\n");
+System.out.println("Winning Position of Player : " +player_position+ " WINNNER "+"\n"+"No.of times the dice rolled : "+count);
 //System.out.println(" Random variables from 1 - 6 : "+random+"\t"+check);
 }
 }
