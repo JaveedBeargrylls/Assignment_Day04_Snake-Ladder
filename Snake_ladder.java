@@ -1,4 +1,4 @@
-public class Snake_ladder{
+public class SnakeLadder{
 public static final int ladder = 1;
 public static final int snake = 2;
 public static final int winning_points = 100;
