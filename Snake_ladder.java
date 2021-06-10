@@ -3,7 +3,7 @@ public static final int ladder = 1;
 public static final int snake = 2;
 public static final int winning_points = 100;
 public static void main(String[] args){
-System.out.println("Welcome to the simple Snake & Ladder Game");
+System.out.println("Welcome to the Snake & Ladder Game");
 	// Starting Position of Player
 int player_position = 0;
 int count = 1;
